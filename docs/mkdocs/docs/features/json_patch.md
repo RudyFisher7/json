@@ -3,7 +3,7 @@
 ## Patches
 
 JSON Patch ([RFC 6902](https://tools.ietf.org/html/rfc6902)) defines a JSON document structure for expressing a sequence
-of operations to apply to a JSON document. With the `patch` function, a JSON Patch is applied to the current JSON value
+of operations to apply_consequences to a JSON document. With the `patch` function, a JSON Patch is applied to the current JSON value
 by executing all operations from the patch.
 
 ??? example

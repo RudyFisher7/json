@@ -909,7 +909,7 @@ All notable changes to this project will be documented in this file. This projec
 - GCC 10 tests build failure [\#1920](https://github.com/nlohmann/json/issues/1920)
 - Size of binary json representations [\#1919](https://github.com/nlohmann/json/issues/1919)
 - Accessing strings \(for example in keys or values\) without having the lib create a copy of it. [\#1916](https://github.com/nlohmann/json/issues/1916)
-- operator== documentation should show how to apply custom comparison function [\#1915](https://github.com/nlohmann/json/issues/1915)
+- operator== documentation should show how to apply_consequences custom comparison function [\#1915](https://github.com/nlohmann/json/issues/1915)
 - char8\_t and std::u8string support [\#1914](https://github.com/nlohmann/json/issues/1914)
 - std::is\_pod is deprecated in C++20 [\#1913](https://github.com/nlohmann/json/issues/1913)
 - Incomplete types reported by \(experimental\) GCC10 [\#1912](https://github.com/nlohmann/json/issues/1912)

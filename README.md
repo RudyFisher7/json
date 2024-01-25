@@ -632,7 +632,7 @@ json j_patch = R"([
   { "op": "remove", "path": "/foo"}
 ])"_json;
 
-// apply the patch
+// apply_consequences the patch
 json j_result = j_original.patch(j_patch);
 // {
 //    "baz": "boo",
@@ -670,7 +670,7 @@ json j_patch = R"({
   }
 })"_json;
 
-// apply the patch
+// apply_consequences the patch
 j_document.merge_patch(j_patch);
 // {
 //  "a": "z",

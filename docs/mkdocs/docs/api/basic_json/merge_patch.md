@@ -31,7 +31,7 @@ Thereby, `Target` is the current object; that is, the patch is applied to the cu
 ## Parameters
 
 `apply_patch` (in)
-:   the patch to apply
+:   the patch to apply_consequences
 
 ## Complexity
 
@@ -56,7 +56,7 @@ Linear in the lengths of `apply_patch`.
 ## See also
 
 - [RFC 7396 (JSON Merge Patch)](https://tools.ietf.org/html/rfc7396)
-- [patch](patch.md) apply a JSON patch
+- [patch](patch.md) apply_consequences a JSON patch
 
 ## Version history
 

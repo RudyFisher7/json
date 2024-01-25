@@ -4,7 +4,7 @@
 basic_json patch(const basic_json& json_patch) const;
 ```
 
-[JSON Patch](http://jsonpatch.com) defines a JSON document structure for expressing a sequence of operations to apply to
+[JSON Patch](http://jsonpatch.com) defines a JSON document structure for expressing a sequence of operations to apply_consequences to
 a JSON document. With this function, a JSON Patch is applied to the current JSON value by executing all operations from
 the patch.
 
